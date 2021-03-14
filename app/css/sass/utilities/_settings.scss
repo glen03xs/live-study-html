@@ -1,0 +1,119 @@
+/* --------------------------------
+ Setttings
+* ---------------------------------*/
+
+/* ----------
+ Variables
+-----------*/
+/*-------------- Color --------------*/
+$color-gold: #9e8034;
+$color-burgundy: #933d38;
+$color-black: #030000;
+$color-text: #58595b; // Default: #212529
+$color-text-l: #fff; // Default: #212529
+
+/*-------------- Fonts --------------*/
+$font-heading: 'Montserrat';
+$font-text: 'Poppins';
+// Unused
+$color-heading: #000;
+$color-link: #9e8034; // Default: #007bff
+$color-hover: #020202; // Default:  #0056b3
+
+/* ----------
+ Responsive
+-----------*/
+@mixin desktop-1920 {
+  @media (max-width: 1920px) {
+    @content;
+  }
+}
+@mixin desktop-1600 {
+  @media (max-width: 1600px) {
+    @content;
+  }
+}
+@mixin desktop-1440 {
+  @media (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin desktop-1366 {
+  @media (max-width: 1366px) {
+    @content;
+  }
+}
+
+@mixin desktop-1280 {
+  @media (max-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin desktop-1024 {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin mobile-landscape-812 {
+  @media (max-width: 812px) {
+    @content;
+  }
+}
+
+@mixin tablet-768 {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile-landscape-736 {
+  @media (max-width: 736px) {
+    @content;
+  }
+}
+
+@mixin tablet-720 {
+  @media (max-width: 720px) {
+    @content;
+  }
+}
+
+@mixin mobile-landscape-667 {
+  @media (max-width: 667px) {
+    @content;
+  }
+}
+
+@mixin mobile-480 {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+@mixin mobile-425 {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+@mixin mobile-414 {
+  @media (max-width: 414px) {
+    @content;
+  }
+}
+@mixin mobile-375 {
+  @media (max-width: 375px) {
+    @content;
+  }
+}
+@mixin mobile-360 {
+  @media (max-width: 360px) {
+    @content;
+  }
+}
+@mixin mobile-320 {
+  @media (max-width: 320px) {
+    @content;
+  }
+}
