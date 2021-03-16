@@ -2,3 +2,35 @@
  Homepage
 * ---------------------------------*/
 
+.main-hero-area {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../images/hero-main-bg.jpg');
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  height: 440px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--search-wrap {
+    margin-top: 28px;
+  }
+  &--search-container {
+    position: relative;
+
+    i {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &__search {
+      border-radius: 50px;
+      outline: none;
+    }
+    
+  }
+}
+

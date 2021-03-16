@@ -4,22 +4,26 @@ Ver: 1.0 \ Author URI: glennepomuceno.com
 /* -------------------------------------------------------------------------------------*/
 
 /*-------------- Plugins --------------*/
-@import "./plugins/variables";
 @import "./plugins/normalize.scss";
-@import "./plugins/regular.scss";
+@import "./plugins-sass/variables";
+@import "./plugins-sass/mixins";
+@import "./plugins-sass/core";
+@import "./plugins-sass/icons";
+@import "./plugins-sass/solid.scss";
+@import "./plugins-sass/brands.scss";
 
 // /*-------------- Utilities --------------*/
 @import "./utilities/settings";
-// @import './utilities/grid';
+@import './utilities/grid';
 // @import './utilities/fonts';
 
 // /*-------------- Layout --------------*/
 @import './layout/base';
 @import "./layout/main";
-// @import './layout/misc';
+@import './layout/misc';
 @import './layout/header';
-// @import './layout/footer';
-// @import './layout/homepage';
+@import './layout/footer';
+@import './layout/homepage';
 
 // /*-------------- Pages --------------*/
 // // @import './pages/product-page';

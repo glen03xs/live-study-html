@@ -2,7 +2,6 @@
  Header
 * ---------------------------------*/
 
-// Base
 .main-header {
   position: fixed;
   width: 100%;
@@ -10,7 +9,7 @@
   &--wrap {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     height: 112px;
@@ -18,11 +17,19 @@
     margin: 0 auto;
   }
 
-  &--logo-wrap {
+  &--brand {
     width: 20%;
+  }
 
+  &--logo-wrap {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 24px;
+    width: 240px;
   }
 }
+
+
 
 .main-nav {
   width: 80%;
@@ -31,11 +38,29 @@
 
 }
 .nav-menu {
-  list-style: none;
   display: flex;
+  list-style: none;
+  padding-top: 20px;
   position: fixed;
-  // overflow: hidden;
   
+  li {
+    padding: 0 .75rem;
+
+    a {
+      color: #fff;
+    }
+
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  &--active {
+    font-weight: 600;
+  }
 
   .nav-dropdown {
     // display: none; // hide for now
